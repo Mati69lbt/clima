@@ -31,10 +31,15 @@ const Navbar = () => {
             placeholder="Buscar ciudad por nombre..."
             required
           />
-          <input type="submit" value="Buscar" />
-          <button type="submit" onClick={() => dispatch(clearAll(state.city))}>
-            Limpiar Ciudades
-          </button>
+          <div className="tres">
+            <input type="submit" value="Buscar" />
+            <button
+              type="submit"
+              onClick={() => dispatch(clearAll(state.city))}
+            >
+              Limpiar Ciudades
+            </button>
+          </div>
         </form>
 
         {repeatedCity && alert("Ciudad ya buscada")}

@@ -50,7 +50,7 @@ const Card = ({
           <p> {min}°</p>
         </div>
         <div className="item">
-          <p>ST:</p>
+          <p className="v">ST:</p>
           <p> {st}°</p>
         </div>
         <div className="item">
@@ -58,7 +58,7 @@ const Card = ({
           <p> {pa} PA</p>
         </div>
         <div className="item">
-          <p>Humedad:</p>
+          <p className="v">Humedad:</p>
           <p> {hum}%</p>
         </div>
         <div className="item">

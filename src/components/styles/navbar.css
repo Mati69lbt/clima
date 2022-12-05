@@ -16,10 +16,10 @@ hr {
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
-* {
+/* * {
   margin: 0;
   padding: 0;
-}
+} */
 
 /* body {
   height: 100vh;
@@ -98,4 +98,19 @@ h1 {
   width: 50%;
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 576px) {
+  .inicio {
+    flex-direction: column-reverse;
+  }
+  .tres {
+    display: flex;
+  }
+  .uno {
+    margin-bottom: 3px;
+  }
+  .dos {
+    margin-left: 3.125rem;
+  }
 }

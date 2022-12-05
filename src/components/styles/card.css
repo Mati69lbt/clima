@@ -37,3 +37,20 @@ p {
   align-self: center;
   text-align: center;
 }
+
+@media (max-width: 576px) {
+  .abj {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .item {
+    width: 25%;
+  }
+  .v {
+    padding-bottom: 20px;
+  }
+  .cab {
+    margin-left: 3px;
+  }
+}
