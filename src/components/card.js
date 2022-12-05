@@ -46,7 +46,7 @@ const Card = ({
           <p> {max}°</p>
         </div>
         <div className="item">
-          <p>Temp Min:</p>
+          <p className="v">Temp Min:</p>
           <p> {min}°</p>
         </div>
         <div className="item">
